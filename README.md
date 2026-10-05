@@ -115,6 +115,9 @@ youtube-audio-converter/
 **Issue: "No module named 'yt_dlp'"**
 - Solution: Activate virtual environment and run `pip install -r requirements.txt`
 
+**Issue: "ERROR: unable to download video data: HTTP Error 403: Forbidden"**
+- Solution: Update yt-dlp and run `pip install -U yt-dlp`
+
 **Issue: Slow downloads**
 - The script is already optimized with concurrent downloads
 - Check your internet connection speed
